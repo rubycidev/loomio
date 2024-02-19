@@ -121,5 +121,6 @@ module Loomio
     }
 
     config.active_storage.content_types_allowed_inline = %w(audio/webm video/webm image/png image/gif image/jpeg image/tiff image/vnd.adobe.photoshop image/vnd.microsoft.icon application/pdf)
+    config.active_record.legacy_connection_handling = false
   end
 end
